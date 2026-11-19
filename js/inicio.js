@@ -1,0 +1,3 @@
+var SI={'momento1':'assets/img-24.jpg','momento2':'assets/img-25.jpg','momento3':'assets/img-26.jpg','momento4':'assets/img-27.jpg','momento5':'assets/img-28.jpg',};
+var SP=[['momento1','Café con leche y sándwich de hongos','50% 55%'],['momento2','Licuado y sándwich','50% 60%'],['momento3','Croissant mojado en café','50% 54%'],['momento4','La barra con plantas','50% 50%'],['momento5','Mesa con cafés, torta y croissant','50% 65%']];
+document.getElementById('strip').innerHTML=SP.map(function(p){return '<div class="img"><img src="'+SI[p[0]]+'" alt="'+p[1]+'" loading="lazy" style="object-position:'+p[2]+'"></div>'}).join('');

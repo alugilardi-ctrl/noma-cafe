@@ -1,0 +1,2 @@
+var SH=[['assets/img-29.jpg','50% 100%'],['assets/img-30.jpg','50% 90%'],['assets/img-31.jpg','50% 81%'],['assets/img-32.jpg','50% 50%'],['assets/img-33.jpg','50% 55%'],['assets/img-34.jpg','50% 62%']];
+document.getElementById('shop').innerHTML=PR.map(function(p,i){return '<div class="prod"><div class="img"><img src="'+SH[i][0]+'" alt="'+p[0]+'" loading="lazy" style="object-position:'+SH[i][1]+'"></div><h3>'+p[0]+'</h3><div class="pr">'+fmt(p[1])+'</div><button class="btn" onclick="add('+i+')">AGREGAR</button></div>'}).join('');

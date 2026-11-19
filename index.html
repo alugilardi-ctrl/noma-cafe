@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NOMA Café · Inicio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="bar">
+<a class="logo" href="index.html">NOMA<small>CAFÉ</small></a>
+<nav id="nav"><a href="index.html" class="on" aria-current="page">Inicio</a><a href="menu.html">Menú</a><a href="tienda.html">Tienda</a><a href="nosotros.html">Nosotros</a><a href="index.html#ubicacion">Ubicación</a><a href="galeria.html">Galería</a></nav>
+<div class="tools"><button class="ibtn" id="cbtn" aria-label="Abrir carrito"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg><span class="cnt" id="cnt">0</span></button>
+<button class="ibtn burger" id="bg" aria-label="Abrir menú" aria-expanded="false"><svg viewBox="0 0 24 24" id="bgi"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div>
+</div></header>
+<div class="veil" id="veil"></div>
+<aside class="cart" id="cart" aria-label="Carrito"><header><h3>Tu carrito</h3><button class="ibtn" id="cx" aria-label="Cerrar carrito"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></header>
+<ul id="cl"></ul><div class="tot"><span>Total</span><b id="ct">$0</b></div><button class="btn" id="buy">COMPRAR</button><p class="msg" id="cm" aria-live="polite"></p></aside>
+
+<main>
+<div class="hero"><div class="wrap">
+<h1>NOMA CAFÉ</h1><p>Una pausa dentro de la ciudad.</p>
+<div class="sub">Café de especialidad · Pastelería artesanal · Palermo</div>
+<a class="btn ghost" href="menu.html">VER MENÚ</a></div></div>
+
+<section><div class="wrap two">
+<div><h2>Café preparado<br>con intención.</h2><p style="margin-top:18px">Cada grano tiene su historia. Venís a probarla.</p><a class="btn" href="nosotros.html">CONOCÉ MÁS</a></div>
+<div class="img" data-ph="Café de especialidad" data-img="assets/img-02.jpg" data-pos="50% 90%"></div></div></section>
+
+<section class="band"><div class="wrap"><h2>Disfrutá<br>lo que te gusta</h2>
+<div class="cards">
+<div><div class="img" data-ph="Café" data-img="assets/img-03.jpg" data-pos="50% 50%"></div><h3>Café de especialidad</h3><p>Espresso, flat white, capuccino, latte y filtrados con granos de origen.</p></div>
+<div><div class="img" data-ph="Pastelería" data-img="assets/img-04.jpg" data-pos="50% 42%"></div><h3>Pastelería artesanal</h3><p>Productos elaborados diariamente para acompañar tu café.</p></div>
+<div><div class="img" data-ph="Brunch" data-img="assets/img-05.jpg" data-pos="50% 50%"></div><h3>Brunch</h3><p>Tostadas y opciones para desayunos y meriendas.</p></div>
+<div><div class="img" data-ph="Granos" data-img="assets/img-06.jpg" data-pos="50% 60%"></div><h3>Café en grano para llevar</h3><p>Llevate el sabor de Noma a donde quieras.</p></div>
+</div></div></section>
+
+<div class="space"><div class="two">
+<div class="img" data-ph="El espacio" data-img="assets/img-07.jpg" data-pos="50% 40%"></div>
+<div class="txt"><h2>Un lugar para tomar un café, trabajar, estudiar o simplemente hacer una pausa.</h2>
+<div class="feat"><div>Luz natural</div><div>Wi-Fi</div><div>Mucha madera y plantas</div><div>Pet friendly</div><div>Barra abierta</div><div>Ambiente tranquilo</div></div></div></div></div>
+
+<section><div class="wrap"><h2>Momentos Noma</h2>
+<div class="strip" id="strip"></div></div></section>
+
+<section id="ubicacion"><div class="wrap two">
+<div><h2>Nos encontramos en Palermo</h2><p style="margin-top:18px">Palermo, Buenos Aires<br>Lun – Dom · 08:00 – 20:00<br>@noma.cafe</p><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Palermo,+Buenos+Aires" target="_blank" rel="noopener">CÓMO LLEGAR</a></div>
+<div class="mapbox"><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Palermo,+Buenos+Aires" target="_blank" rel="noopener">NOMA Café · Ver en Google Maps</a><iframe title="Mapa de NOMA Café en Palermo, Buenos Aires" src="https://www.google.com/maps?q=Palermo,+Buenos+Aires&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div></div></section>
+</main>
+
+<footer><div class="bar"><a class="logo" href="index.html">NOMA<small>CAFÉ</small></a>
+<div class="soc"><a href="https://www.instagram.com/noma.cafe/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg></a>
+<a href="https://wa.me/5491100000000" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M3 21l1.6-4.6A8.5 8.5 0 1 1 8 19.6z"/><path d="M9 8.5c0 3 2.5 5.5 5.5 5.5l1-1.3-1.8-1-.8.7a3.5 3.5 0 0 1-1.8-1.8l.7-.8-1-1.8z"/></svg></a></div></div></footer>
+
+<div class="lb" id="lb" role="dialog" aria-label="Imagen ampliada"><button id="lbx" aria-label="Cerrar">×</button><img id="lbi" alt=""></div>
+<script src="js/main.js"></script>
+<script src="js/inicio.js"></script>
+</body>
+</html>
